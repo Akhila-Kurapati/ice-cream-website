@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdf6f0;
+      margin: 0;
+      padding: 0;
+    }
+    .shop-section {
+      padding: 40px;
+      text-align: center;
+    }
+    .shop-section h2 {
+      font-size: 2.5em;
+      color: #d35400;
+      margin-bottom: 20px;
+    }
+    .shop-description {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+      color: #e67e22;
+    }
+    .product-card p {
+      font-size: 0.95em;
+      color: #666;
+    }
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #d35400;
+    }
+  </style>
+  
+</head>
+<body>
+  <header class="container">
+    <nav class="navbar flex">
+        <a href="index.html" class="logo">🍨 scoopit</a>
+        <ul class="navlist flex">
+            <li><a href="shop.html" class="link">Shop</a></li>
+            <li><a href="about.html" class="link">About Us</a></li>
+            <li><a href="flavours.html" class="link">Flavours</a></li>
+            <li><a href="story.html" class="link">Our Story</a></li>
+            <li><a href="contact.html" class="link">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+  <section class="shop-section" id="shop">
+    <h2>🍨 Our Ice Cream Shop</h2>
+    <p class="shop-description">
+      Indulge in a world of creamy delights—from timeless classics like Vanilla Bean to adventurous flavors like Mango Chili Twist. Choose your cone, add your favorite toppings, and make every scoop uniquely yours!
+    </p>
+
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src= "https://png.pngtree.com/png-clipart/20250119/original/pngtree-vanilla-ice-cream-scoop-creamy-dessert-design-isolated-on-transparent-background-png-image_20101088.png" alt="Vanilla Ice Cream">
+        <h3>Vanilla Bean</h3>
+        <p>Classic creamy vanilla made with real vanilla pods.</p>
+        <p class="price">₹120 / scoop</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://static.vecteezy.com/system/resources/previews/056/566/340/non_2x/chocolate-ice-cream-scoop-with-drizzle-on-transparent-background-png.png" alt="Chocolate Ice Cream">
+        <h3>Belgian Chocolate</h3>
+        <p>Rich, indulgent chocolate crafted with Belgian cocoa.</p>
+        <p class="price">₹150 / scoop</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://static.vecteezy.com/system/resources/previews/059/252/263/non_2x/mango-ice-cream-scoop-on-transparent-background-png.png" alt="Mango Chili Ice Cream">
+        <h3>Mango Chili Twist</h3>
+        <p>Sweet mango with a spicy kick of chili.</p>
+        <p class="price">₹180 / scoop</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://png.pngtree.com/png-clipart/20250605/original/pngtree-single-scoop-of-pistachio-ice-cream-isolated-on-white-background-png-image_21127500.png" alt="Pistachio Ice Cream">
+        <h3>Pistachio Delight</h3>
+        <p>Nutty pistachio made with hand‑picked Sicilian nuts.</p>
+        <p class="price">₹200 / scoop</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+      <!-- Product 5 -->
+    <div class="product-card">
+      <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-vibrant-pink-scoop-of-strawberry-ice-cream-featuring-whole-on-png-image_19854364.png" alt="Strawberry Ice Cream">
+      <h3>Strawberry Bliss</h3>
+      <p>Fresh strawberries blended into creamy perfection.</p>
+      <p class="price">₹140 / scoop</p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="https://static.vecteezy.com/system/resources/previews/066/779/817/non_2x/delicious-mint-chocolate-chip-ice-cream-scoop-with-fresh-mint-leaves-png.png" alt="Mint Ice Cream">
+      <h3>Mint Choco Chip</h3>
+      <p>Refreshing mint with crunchy chocolate chips.</p>
+      <p class="price">₹160 / scoop</p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <img src="https://media.istockphoto.com/id/141947029/photo/isolated-ice-cream.jpg?s=612x612&w=0&k=20&c=JidQ2UXLgdRTfclybJNVI04bvcVc09oXe70SD3kTimQ=" alt="Coffee Ice Cream">
+      <h3>Coffee Caramel Swirl</h3>
+      <p>Bold coffee flavor with ribbons of caramel.</p>
+      <p class="price">₹170 / scoop</p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product-card">
+      <img src="https://thumbs.dreamstime.com/b/decadent-chocolate-chip-mint-ice-cream-cookie-sandwiches-stunning-shallow-depth-field-emphasizes-cookies-mouthwatering-close-416321098.jpg" alt="Cookies and Cream Ice Cream">
+      <h3>Cookies & Cream</h3>
+      <p>Crunchy cookie chunks in smooth vanilla cream.</p>
+      <p class="price">₹180 / scoop</p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+    </div>
+  </section>
+
+</body>
+</html>
